@@ -1,11 +1,15 @@
 import { useNavigate } from "react-router-dom";
 import { productos } from "../servicios/database";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 const tallasDisponibles = ["M", "L", "XL", "XXL"];
 
 const Productos = () => {
     const [tallaSeleccionada, setTallaSeleccionada] = useState("");
     const navigate = useNavigate();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     const productosFiltrados = tallaSeleccionada
         ? productos.filter((producto) => producto.tallas.includes(tallaSeleccionada))
@@ -18,7 +22,7 @@ const Productos = () => {
     return (
         <section className="productos">
             <h2 className="productos-titulo">
-                En BLACKWARE encontraras las camisetas de la mayor calidad en los mejores precios!
+                En BLACKWARE encontraras tus camisetas favoritas de la mayor calidad!
                 <div className="linea"></div>
             </h2>
 

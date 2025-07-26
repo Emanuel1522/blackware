@@ -32,15 +32,20 @@ const ProductoPedido = () => {
 
           <p className="label-talla">Selecciona la talla</p>
           <div className="tallas">
-            {['M', 'L', 'XL', 'XXL'].map(t => (
-              <button
-                key={t}
-                className={`talla ${talla === t ? 'seleccionada' : ''}`}
-                onClick={() => setTalla(t)}
-              >
-                {t}
-              </button>
-            ))}
+            {['M', 'L', 'XL', 'XXL'].map(t => {
+              const disponible = producto.tallas.includes(t);
+
+              return (
+                <button
+                  key={t}
+                  className={`talla ${talla === t ? 'seleccionada' : ''} ${!disponible ? 'deshabilitada' : ''}`}
+                  onClick={() => disponible && setTalla(t)}
+                  disabled={!disponible}
+                >
+                  {t}
+                </button>
+              );
+            })}
           </div>
 
           <p className="proximamente">Próximamente integraremos el pago en línea !!!</p>
@@ -53,11 +58,11 @@ const ProductoPedido = () => {
             Realizar pedido por WhatsApp
           </a>
 
-          <a href="/guia-tallas" target="_blank" className="guia-tallas">
+          <br /><a href="/guia-tallas" target="_blank" className="guia-tallas">
             Guía de tallas
           </a>
 
-          <p class="opiniones">⭐⭐⭐⭐☆ (4.8 / 5) · 128 ventas esta semana</p>
+          <br /><p class="opiniones">⭐⭐⭐⭐☆ (4.8 / 5) · 128 ventas esta semana</p>
         </div>
       </div>
     </section>
