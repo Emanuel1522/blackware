@@ -91,7 +91,7 @@ const Encabezado = () => {
           </nav>
         </div>
         <div className="logo-container">
-          <img src="/src/assets/logo.png" alt="Logo" className="logo" />
+          <img src="/logo.png" alt="Logo" className="logo" />
         </div>
       </header>
     </>
