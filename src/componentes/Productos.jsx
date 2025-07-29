@@ -16,7 +16,7 @@ const Productos = () => {
         : productos;
 
     const verDetalles = (producto) => {
-        navigate(`/producto/${producto.slug}`, { state: { producto } });
+        navigate(`/producto/${producto.id}`, { state: { producto } });
     };
 
     return (

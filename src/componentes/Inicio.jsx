@@ -13,9 +13,9 @@ const Inicio = () => {
                 Prendas destacadas!
             </h2>
             <div className="inicio-imagenes">
-                <img src="/productos/IMG_2049.jpg" alt="" className="hero-imagen" />
-                <img src="/productos/IMG_4431.jpg" alt="" className="hero-imagen" />
-                <img src="/productos/IMG_9932.jpg" alt="" className="hero-imagen" />
+                <img src="/destacados/IMG_2049.jpg" alt="" className="hero-imagen" />
+                <img src="/destacados/IMG_4431.jpg" alt="" className="hero-imagen" />
+                <img src="/destacados/IMG_9932.jpg" alt="" className="hero-imagen" />
             </div>
             <button onClick={()=>{redireccion("/productos")}} className="boton-inicio">VER CATALOGO</button>
         </section>

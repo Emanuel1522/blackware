@@ -3,17 +3,17 @@ import { productos } from '../servicios/database';
 import { useState, useEffect } from 'react';
 
 const ProductoPedido = () => {
-  const { slug } = useParams();
+  const { id } = useParams();
   const location = useLocation();
   const [producto, setProducto] = useState(location.state?.producto);
   const [talla, setTalla] = useState('');
 
   useEffect(() => {
     if (!producto) {
-      const p = productos.find(p => p.slug === slug);
+      const p = productos.find(p => p.id === id);
       setProducto(p);
     }
-  }, [slug, producto]);
+  }, [id, producto]);
 
   if (!producto) return <div className="cargando">Cargando...</div>;
 
