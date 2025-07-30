@@ -12,7 +12,7 @@ export let Router = [
         element: <Catalogo />
     },
     {
-        path: "/producto/:slug", 
+        path: "/producto/:id", 
         element: <ProductoDetalle />
     }
 ];

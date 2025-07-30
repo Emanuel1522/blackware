@@ -11,7 +11,7 @@ const Footer = () => {
                     <div className="footer-info">
                         <h2>CONTÁCTANOS</h2>
                         <p>
-                            <br />Whatsapp: 3013164185 <br /><br />
+                            <br />Whatsapp: +57 324 6047663 <br /><br />
                             Gmail: blackwarepulse@gmail.com
                         </p>
                     </div>
@@ -48,8 +48,8 @@ const Footer = () => {
                                     .then((response) => {
                                         if (response.ok) {
                                             alert("✅ ¡Mensaje enviado con éxito!");
-                                            setModalAbierto(false); // cerrar modal
-                                            e.target.reset(); // limpiar formulario
+                                            setModalAbierto(false);
+                                            e.target.reset();
                                         } else {
                                             alert("❌ Ocurrió un error al enviar el mensaje.");
                                         }

@@ -17,7 +17,7 @@ const ProductoPedido = () => {
 
   if (!producto) return <div className="cargando">Cargando...</div>;
 
-  const linkWhatsapp = `https://wa.me/573013164185?text=Hola,%20quiero%20la%20${producto.id}%20talla%20${talla}`;
+  const linkWhatsapp = `https://wa.me/573246047663?text=Hola,%20quiero%20la%20${producto.id}%20talla%20${talla}`;
 
   return (
     <section className="producto-detalle">
@@ -57,6 +57,13 @@ const ProductoPedido = () => {
           >
             Realizar pedido por WhatsApp
           </a>
+
+          <button
+            onClick={() => window.history.back()}
+            className="btn-regresar"
+          >
+            ← Regresar
+          </button>
 
           <br /><a href="/guia-tallas" target="_blank" className="guia-tallas">
             Guía de tallas

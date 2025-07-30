@@ -283,22 +283,31 @@ button:hover {
 }
 
 .inicio-imagenes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 30px;
-    max-width: 1280px;
+    max-width: 1000px;
     width: 100%;
-    margin: 30px 0;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.imagenes-scroll {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+}
+
+.imagenes-scroll::-webkit-scrollbar {
+    display: none;
 }
 
 .hero-imagen {
-    max-width: 300px;
+    min-width: 250px;
     height: auto;
-    transition: transform 0.4s ease, filter 0.4s ease;
     border-radius: 10px;
+    transition: transform 0.4s ease, filter 0.4s ease;
 }
-
 .hero-imagen:hover {
     transform: scale(1.03);
     filter: brightness(1.1);
@@ -683,11 +692,17 @@ textarea {
 .btn-whatsapp {
     display: inline-block;
     margin-top: 20px;
-    background-color: #e41515;
+    background: linear-gradient(90deg, #ff1e1e, #ff6161);
     color: white;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 6px;
+}
+
+.btn-whatsapp:hover {
+    background: linear-gradient(90deg, #da1b1b, #d55151);
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
 }
 
 .deshabilitado {
@@ -700,4 +715,16 @@ textarea {
     margin-top: 10px;
     text-decoration: underline;
     color: #ccc;
+}
+
+.btn-regresar {
+  display: block;
+  margin-top: 15px;
+  background-color: transparent;
+  color: #ccc;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
 }

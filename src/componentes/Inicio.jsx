@@ -1,7 +1,12 @@
 import { useNavigate } from "react-router-dom"
+import { productos } from "../servicios/database.js"
 
 const Inicio = () => {
     let redireccion = useNavigate();
+
+    let destacados = productos.filter(producto =>
+        [2049, 4431, 9932].includes(producto.id)
+    );
 
     return (
         <section className="inicio">
@@ -13,11 +18,20 @@ const Inicio = () => {
                 Prendas destacadas!
             </h2>
             <div className="inicio-imagenes">
-                <img src="/destacados/IMG_2049.jpg" alt="" className="hero-imagen" />
-                <img src="/destacados/IMG_4431.jpg" alt="" className="hero-imagen" />
-                <img src="/destacados/IMG_9932.jpg" alt="" className="hero-imagen" />
+                <div className="imagenes-scroll">
+                    {destacados.map(producto => (
+                        <img
+                            key={producto.id}
+                            src={producto.imagen}
+                            alt={producto.nombre}
+                            className="hero-imagen"
+                            onClick={() => redireccion(`/producto/${producto.id}`, { state: { producto } })}
+                            style={{ cursor: "pointer" }}
+                        />
+                    ))}
+                </div>
             </div>
-            <button onClick={()=>{redireccion("/productos")}} className="boton-inicio">VER CATALOGO</button>
+            <button onClick={() => { redireccion("/productos") }} className="boton-inicio">VER CATALOGO</button>
         </section>
     )
 }
