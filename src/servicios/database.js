@@ -4,7 +4,14 @@ export const productos = [
     nombre: 'SUPREME',
     precio: 99900,
     imagen: '/productos/IMG_5421.webp',
-    tallas: ["", "L", "XL", ""]
+    tallas: ["", "", "XL", ""]
+  },
+  {
+    id: 5420,
+    nombre: 'SUPREME',
+    precio: 99900,
+    imagen: '/productos/IMG_5420.webp',
+    tallas: ["", "", "XL", ""]
   },
   {
     id: 4431,
@@ -21,6 +28,13 @@ export const productos = [
     tallas: ["", "", "XL", "XXL"]
   },
   {
+    id: 2022,
+    nombre: 'HUGO BOSS',
+    precio: 99900,
+    imagen: '/productos/IMG_2022.webp',
+    tallas: ["", "", "XL", "XXL"]
+  },
+  {
     id: 2049,
     nombre: 'HUGO BOSS',
     precio: 99900,
@@ -32,7 +46,7 @@ export const productos = [
     nombre: 'HUGO BOSS',
     precio: 99900,
     imagen: '/productos/IMG_5652.webp',
-    tallas: ["", "L", "XL", "XXL"]
+    tallas: ["", "", "XL", "XXL"]
   },
   {
     id: 6206,
@@ -67,14 +81,21 @@ export const productos = [
     nombre: 'MONASTERY',
     precio: 99900,
     imagen: '/productos/IMG_9932.webp',
-    tallas: ["", "L", "", ""]
+    tallas: ["", "", "", ""]
+  },
+  {
+    id: "6424X",
+    nombre: 'MONASTERY',
+    precio: 99900,
+    imagen: '/productos/64241143-3F9B-4D1C-BD00-7D5F0B9E2848.webp',
+    tallas: ["", "L", "XL", ""]
   },
   {
     id: 6106,
     nombre: 'MONASTERY',
     precio: 99900,
     imagen: '/productos/IMG_6106.webp',
-    tallas: ["", "", "XL", ""]
+    tallas: ["", "L", "XL", ""]
   },
   {
     id: 4329,
@@ -88,7 +109,7 @@ export const productos = [
     nombre: 'COACH',
     precio: 99900,
     imagen: '/productos/IMG_4332.webp',
-    tallas: ["M", "L", "XL", ""]
+    tallas: ["", "L", "XL", ""]
   },
   {
     id: 4326,
@@ -137,14 +158,14 @@ export const productos = [
     nombre: 'TOMMY HILFIGER',
     precio: 99900,
     imagen: '/productos/IMG_5887.webp',
-    tallas: ["", "L", "", ""]
+    tallas: ["", "L", "XL", ""]
   },
   {
     id: 5891,
     nombre: 'TOMMY HILFIGER',
     precio: 99900,
     imagen: '/productos/IMG_5891.webp',
-    tallas: ["", "L", "XL", ""]
+    tallas: ["", "L", "", ""]
   },
   {
     id: "64ed",
@@ -179,14 +200,14 @@ export const productos = [
     nombre: 'CLEMONT',
     precio: 99900,
     imagen: '/productos/IMG_5908.webp',
-    tallas: ["", "", "XL", ""]
+    tallas: ["", "", "", ""]
   },
   {
     id: 6083,
     nombre: 'PSYCHO BUNNY',
     precio: 99900,
     imagen: '/productos/IMG_6083.webp',
-    tallas: ["", "L", "XL", ""]
+    tallas: ["", "L", "", ""]
   },
   {
     id: 6084,
@@ -203,6 +224,27 @@ export const productos = [
     tallas: ["", "", "XL", "XXL"]
   },
   {
+    id: "A0DB",
+    nombre: 'CASA BLANCA',
+    precio: 99900,
+    imagen: '/productos/A0DB9799-6592-474D-BF5D-F3C274E54D5B.webp',
+    tallas: ["", "L", "XL", "XXL"]
+  },
+  {
+    id: 1042,
+    nombre: 'OAKLEY',
+    precio: 99900,
+    imagen: '/productos/IMG_1042.webp',
+    tallas: ["", "", "XL", ""]
+  },
+  {
+    id: 5986,
+    nombre: 'OAKLEY',
+    precio: 99900,
+    imagen: '/productos/IMG_5986.webp',
+    tallas: ["", "L", "", ""]
+  },
+  {
     id: 2280,
     nombre: 'OAKLEY',
     precio: 99900,
@@ -214,7 +256,7 @@ export const productos = [
     nombre: 'OAKLEY',
     precio: 99900,
     imagen: '/productos/IMG_2279.webp',
-    tallas: ["", "M", "", ""]
+    tallas: ["", "", "", ""]
   },
   {
     id: "5F2F",
