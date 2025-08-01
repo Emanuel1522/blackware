@@ -14,6 +14,13 @@ export const productos = [
     tallas: ["", "", "XL", ""]
   },
   {
+    id: 4441,
+    nombre: 'HUGO BOSS',
+    precio: 99900,
+    imagen: '/productos/IMG_4441.webp',
+    tallas: ["", "L", "XL", "XXL"]
+  },
+  {
     id: 4431,
     nombre: 'HUGO BOSS',
     precio: 99900,
@@ -21,7 +28,14 @@ export const productos = [
     tallas: ["", "L", "", ""]
   },
   {
-    id: "2020",
+    id: 4433,
+    nombre: 'HUGO BOSS',
+    precio: 99900,
+    imagen: '/productos/IMG_4433.webp',
+    tallas: ["", "L", "", "XXL"]
+  },
+  {
+    id: 2020,
     nombre: 'HUGO BOSS',
     precio: 99900,
     imagen: '/productos/IMG_2020.webp',
@@ -70,7 +84,7 @@ export const productos = [
     tallas: ["", "", "", "XXL"]
   },
   {
-    id: "0136",
+    id: "0136X",
     nombre: 'AMIRI',
     precio: 99900,
     imagen: '/productos/0136545B-CAE0-41C2-B4CC-1C2C66C3D226.webp',
@@ -235,7 +249,7 @@ export const productos = [
     nombre: 'OAKLEY',
     precio: 99900,
     imagen: '/productos/IMG_1042.webp',
-    tallas: ["", "", "XL", ""]
+    tallas: ["", "", "", ""]
   },
   {
     id: 5986,
@@ -252,13 +266,6 @@ export const productos = [
     tallas: ["", "", "XL", ""]
   },
   {
-    id: 2279,
-    nombre: 'OAKLEY',
-    precio: 99900,
-    imagen: '/productos/IMG_2279.webp',
-    tallas: ["", "", "", ""]
-  },
-  {
     id: "5F2F",
     nombre: 'NIKE SWOOSE',
     precio: 99900,
@@ -271,6 +278,13 @@ export const productos = [
     precio: 99900,
     imagen: '/productos/D5CF4283-854C-4519-87F6-ECB54E87D648.webp',
     tallas: ["M", "", "XL", ""]
+  },
+  {
+    id: "9BEC",
+    nombre: 'NIKE',
+    precio: 99900,
+    imagen: '/productos/9BEC7E08-A518-420B-8049-9841C41F227E.webp',
+    tallas: ["", "", "XL", ""]
   },
   {
     id: "3FFD",
