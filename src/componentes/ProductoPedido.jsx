@@ -69,7 +69,7 @@ const ProductoPedido = () => {
             Guía de tallas
           </a>
 
-          <br /><p class="opiniones">⭐⭐⭐⭐☆ (4.8 / 5) · 128 ventas esta semana</p>
+          <br /><p class="opiniones">⭐⭐⭐⭐☆ (4.8 / 5) · 28 ventas esta semana</p>
         </div>
       </div>
     </section>
