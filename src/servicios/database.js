@@ -32,7 +32,7 @@ export const productos = [
     nombre: 'HUGO BOSS',
     precio: 99900,
     imagen: '/productos/IMG_4433.webp',
-    tallas: ["", "L", "", "XXL"]
+    tallas: ["", "", "", "XXL"]
   },
   {
     id: 2020,
@@ -89,14 +89,14 @@ export const productos = [
     precio: 99900,
     imagen: '/productos/0136545B-CAE0-41C2-B4CC-1C2C66C3D226.webp',
     tallas: ["", "L", "", "XXL"]
-  },
+  },/*
   {
     id: 9932,
     nombre: 'MONASTERY',
     precio: 99900,
     imagen: '/productos/IMG_9932.webp',
     tallas: ["", "", "", ""]
-  },
+  }, */
   {
     id: "6424X",
     nombre: 'MONASTERY',
@@ -180,14 +180,14 @@ export const productos = [
     precio: 99900,
     imagen: '/productos/IMG_5891.webp',
     tallas: ["", "L", "", ""]
-  },
+  },/*
   {
     id: "64ed",
     nombre: 'GUESS',
     precio: 99900,
     imagen: '/productos/64ed5b7b-44a4-4287-801b-474d716ca1c8.webp',
-    tallas: ["", "", "XL", ""]
-  },
+    tallas: ["", "", "", ""]
+  }, */
   {
     id: "202E",
     nombre: 'CLEMONT',
@@ -208,14 +208,14 @@ export const productos = [
     precio: 99900,
     imagen: '/productos/IMG_5907.webp',
     tallas: ["", "L", "XL", ""]
-  },
+  },/*
   {
     id: 5908,
     nombre: 'CLEMONT',
     precio: 99900,
     imagen: '/productos/IMG_5908.webp',
     tallas: ["", "", "", ""]
-  },
+  }, */
   {
     id: 6083,
     nombre: 'PSYCHO BUNNY',
@@ -243,14 +243,14 @@ export const productos = [
     precio: 99900,
     imagen: '/productos/A0DB9799-6592-474D-BF5D-F3C274E54D5B.webp',
     tallas: ["", "L", "XL", "XXL"]
-  },
+  },/*
   {
     id: 1042,
     nombre: 'OAKLEY',
     precio: 99900,
     imagen: '/productos/IMG_1042.webp',
     tallas: ["", "", "", ""]
-  },
+  }, */
   {
     id: 5986,
     nombre: 'OAKLEY',
