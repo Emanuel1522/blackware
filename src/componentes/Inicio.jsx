@@ -5,7 +5,7 @@ const Inicio = () => {
     let redireccion = useNavigate();
 
     let destacados = productos.filter(producto =>
-        ["9BEC", 2020, "A11BF"].includes(producto.id)
+        [5420, 5907, 4441].includes(producto.id)
     );
 
     return (

@@ -46,7 +46,7 @@ export const productos = [
     nombre: 'HUGO BOSS',
     precio: 99900,
     imagen: '/productos/IMG_2022.webp',
-    tallas: ["", "", "XL", "XXL"]
+    tallas: ["", "", "", "XXL"]
   },
   {
     id: 2049,
@@ -60,7 +60,7 @@ export const productos = [
     nombre: 'HUGO BOSS',
     precio: 99900,
     imagen: '/productos/IMG_5652.webp',
-    tallas: ["", "", "XL", "XXL"]
+    tallas: ["", "", "XL", ""]
   },
   {
     id: 6206,
@@ -74,21 +74,21 @@ export const productos = [
     nombre: 'SUPERDRY RELIEVE',
     precio: 99900,
     imagen: '/productos/IMG_0332.webp',
-    tallas: ["", "", "XL", "XXL"]
-  },
+    tallas: ["", "", "", "XXL"]
+  },/*
   {
     id: "0313",
     nombre: 'SUPERDRY RELIEVE',
     precio: 99900,
     imagen: '/productos/IMG_0313.webp',
-    tallas: ["", "", "", "XXL"]
-  },
+    tallas: ["", "", "", ""]
+  }, */
   {
     id: "0136X",
     nombre: 'AMIRI',
     precio: 99900,
     imagen: '/productos/0136545B-CAE0-41C2-B4CC-1C2C66C3D226.webp',
-    tallas: ["", "L", "", "XXL"]
+    tallas: ["", "", "", "XXL"]
   },/*
   {
     id: 9932,
@@ -110,6 +110,13 @@ export const productos = [
     precio: 99900,
     imagen: '/productos/IMG_6106.webp',
     tallas: ["", "L", "XL", ""]
+  },
+  {
+    id: 3125,
+    nombre: 'COACH',
+    precio: 99900,
+    imagen: '/productos/IMG_3125.webp',
+    tallas: ["", "", "XL", ""]
   },
   {
     id: 4329,
@@ -137,14 +144,14 @@ export const productos = [
     nombre: 'COACH',
     precio: 99900,
     imagen: '/productos/IMG_4328.webp',
-    tallas: ["", "L", "XL", ""]
+    tallas: ["", "L", "", ""]
   },
   {
     id: 4290,
     nombre: 'COACH RELIEVE',
     precio: 99900,
     imagen: '/productos/IMG_4290.webp',
-    tallas: ["M", "", "XL", ""]
+    tallas: ["", "", "XL", ""]
   },
   {
     id: 4292,
@@ -172,7 +179,7 @@ export const productos = [
     nombre: 'TOMMY HILFIGER',
     precio: 99900,
     imagen: '/productos/IMG_5887.webp',
-    tallas: ["", "L", "XL", ""]
+    tallas: ["", "L", "", ""]
   },
   {
     id: 5891,
@@ -187,20 +194,27 @@ export const productos = [
     precio: 99900,
     imagen: '/productos/64ed5b7b-44a4-4287-801b-474d716ca1c8.webp',
     tallas: ["", "", "", ""]
-  }, */
+  },
   {
     id: "202E",
     nombre: 'CLEMONT',
     precio: 99900,
     imagen: '/productos/202E7812-3D00-4B3C-A96E-80D7A799D507.webp',
-    tallas: ["", "", "XL", "XXL"]
+    tallas: ["", "", "", ""]
   },
   {
     id: "B0AD",
     nombre: 'CLEMONT',
     precio: 99900,
     imagen: '/productos/B0AD4837-6C4E-413E-965A-0161E10D8C68.webp',
-    tallas: ["", "", "XL", "XXL"]
+    tallas: ["", "", "", ""]
+  }, */
+  {
+    id: "8FFF",
+    nombre: 'CLEMONT',
+    precio: 99900,
+    imagen: '/productos/8FFF4B91-143B-43F3-851D-FADA5D79E503.webp',
+    tallas: ["", "", "XL", ""]
   },
   {
     id: 5907,
@@ -250,21 +264,21 @@ export const productos = [
     precio: 99900,
     imagen: '/productos/IMG_1042.webp',
     tallas: ["", "", "", ""]
-  }, */
+  }, 
   {
     id: 5986,
     nombre: 'OAKLEY',
     precio: 99900,
     imagen: '/productos/IMG_5986.webp',
-    tallas: ["", "L", "", ""]
-  },
+    tallas: ["", "", "", ""]
+  }, 
   {
     id: 2280,
     nombre: 'OAKLEY',
     precio: 99900,
     imagen: '/productos/IMG_2280.webp',
     tallas: ["", "", "XL", ""]
-  },
+  },*/
   {
     id: "5F2F",
     nombre: 'NIKE SWOOSE',
@@ -278,14 +292,14 @@ export const productos = [
     precio: 99900,
     imagen: '/productos/D5CF4283-854C-4519-87F6-ECB54E87D648.webp',
     tallas: ["M", "", "XL", ""]
-  },
+  }, /*
   {
     id: "9BEC",
     nombre: 'NIKE',
     precio: 99900,
     imagen: '/productos/9BEC7E08-A518-420B-8049-9841C41F227E.webp',
-    tallas: ["", "", "XL", ""]
-  },
+    tallas: ["", "", "", ""]
+  }, */
   {
     id: "3FFD",
     nombre: 'NIKE',
