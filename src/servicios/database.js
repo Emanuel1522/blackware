@@ -4,7 +4,7 @@ export const productos = [
     nombre: 'SUPREME',
     precio: 99900,
     imagen: '/productos/IMG_5421.webp',
-    tallas: ["", "", "XL", ""]
+    tallas: ["", "", "XL", "XXL"]
   },
   {
     id: 5420,
@@ -109,7 +109,7 @@ export const productos = [
     nombre: 'MONASTERY',
     precio: 99900,
     imagen: '/productos/IMG_6106.webp',
-    tallas: ["", "L", "XL", ""]
+    tallas: ["", "L", "", ""]
   },
   {
     id: 3125,
